@@ -1,0 +1,19 @@
+<div class="container-fluid text-center">
+<div id="projects" class="row">
+	<h2>PROJECTS</h2>
+	<div class="col-sm-4"></div>
+	<div class="col-sm-4"></div>
+	<div class="col-sm-4"></div>
+</div>
+</div>
+<section id="about" class="container-fluid">
+	<h2>ABOUT</h2>
+	<article></article>
+</section>
+<footer id="contact" class="container-fluid">
+	<section class="row">
+	<section class="col-sm-4"><i class="fa fa-copyright"/i><p>2020 Shashank Pradhan</p></section>
+	<section class="col-sm-4"> Email-Shashankpradhan911@gmail.com </section>
+	<section class="col-sm-4"><i class="fa fa-linkedin"/><i class="fa fa-twitter"/><i class="fa fa-github" /></section>
+	</section>
+</footer>
