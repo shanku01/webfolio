@@ -1,41 +1,9 @@
 .App {
   text-align: center;
+  font-family: "Sofia";
+  font-size: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 .typewriter h1 {
   color: white;
   font-family: monospace;
@@ -57,4 +25,38 @@
 @keyframes blink-caret {
   from, to { border-color: transparent }
   1000% { border-color: transparent }
+}
+ul{
+  list-style-type: none;
+  font-size: 40px;
+  text-transform: capitalize;
+  box-shadow:1px 1px 2px 1px rgba(1,1,1,0.2);
+  height:60px;
+  padding: 10px;
+}
+.com{
+  width: 40%;
+  left:30%;
+  margin-top: 100px;
+}
+.box{
+  height: 400px;
+  background: rgba(1,1,1,0.8);
+  color: white;
+  width: 100%;
+}
+.heading{
+  font-size: 40px;
+  padding-top:100px;
+}
+.box1{
+  height:600px;
+  color: white;
+  width: 100%;
+}
+.box2{
+  height:500px;
+  background: rgba(1,1,1,0.8);
+  color: white;
+  width: 100%;
 }
