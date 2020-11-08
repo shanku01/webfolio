@@ -5,6 +5,7 @@ import 'font-awesome/css/font-awesome.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import webMain from "./webMainPhoto.jpg"
 import com from "./com.png"
+import logo from "./logo.svg"
 import {Line} from 'react-chartjs-2';
 
 class App extends Component{
@@ -13,7 +14,6 @@ class App extends Component{
     this.state={
     }
   }
-
   render(){
   return (
     <div className="App">
@@ -35,7 +35,7 @@ class App extends Component{
         <img src={com} className="com"/>
       </div>
     <div className="container-fluid position-relative box">
-          <h1 className="heading">Hi there, Nice to meet you.</h1>
+          <h1 className="heading">Hi, Nice to meet you.</h1>
           <p>After working on projects for 4 years, I got the secret of a successful project, Always try to make them right instead of work.
 I have learnt frontend so I could portray my imagination on the website, which gives me an immense amount of pleasure. Nothing is more peaceful than creating something beautiful.
 I have collaborated with different types of people for different types of projects. Which developed team quality in me, it's wonderful when different perspective people come together to serve the common idea.
@@ -82,12 +82,17 @@ So if you have any idea/project/website, I would love to be part of that, Feel f
     }
   }/>
   </div>
-  <div className="container-fluid position-relative box" style={{marginTop:'150px'}}>
-          <h1 className="heading">Hi there, Nice to meet you.</h1>
-          <p>After working on projects for 4 years, I got the secret of a successful project, Always try to make them right instead of work.
-I have learnt frontend so I could portray my imagination on the website, which gives me an immense amount of pleasure. Nothing is more peaceful than creating something beautiful.
-I have collaborated with different types of people for different types of projects. Which developed team quality in me, it's wonderful when different perspective people come together to serve the common idea.
-So if you have any idea/project/website, I would love to be part of that, Feel free to connect me. </p>
+  <div className="container-fluid position-relative box" style={{marginTop:'150px',height:"400px"}}>
+          <h1 className="heading" style={{paddingTop:'50px'}}>Learning, Leveling and Living.</h1>
+          <p style={{fontSize:'30px',marginTop:'50px'}}>Connnect with Me</p>
+          <div>
+          <a href="https://www.linkedin.com/in/iamshanku/"><i className="fa fa-linkedin-square connect"></i></a>
+          <a href="https://github.com/shanku01"><i className="fa fa-github connect"></i></a>
+          <a href="mailto:shashankpradhan911@gmail.com"><i className="fa fa-envelope-o connect"></i></a>
+          </div>
+          <p style={{marginTop:'50px'}}>Crafted by Me <i className="fa fa-copyright" aria-hidden="true"></i> Shashank</p>
+          <p style={{fontSize:"10px"}}>Made with <img src={logo} className="spin"/></p>
+
     </div>
 </div>  
   );

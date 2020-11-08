@@ -60,3 +60,30 @@ ul{
   color: white;
   width: 100%;
 }
+.fa-linkedin-square,.fa-github,.fa-envelope-o{
+  color:white;
+}
+.connect{
+  padding: 10px;
+  margin-left: 20px;
+}
+.connect:hover{
+  border-radius: 50%;
+  border: 2px solid white;
+  align-items: center;
+}
+.spin{
+  width:20px;
+  animation-name: spin;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
